@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Projects from "./pages/Projects";
+
 
 export default function App() {
   return (
@@ -44,26 +46,13 @@ function About() {
   );
 }
 
-function Projects() {
-  return (
-    <section>
-      <h2 className="text-2xl font-semibold">Projects</h2>
-      <ul className="mt-2 text-gray-600">
-        <li>🔹 Cloud-based ETL pipeline optimization</li>
-        <li>🔹 Automated CI/CD for microservices</li>
-        <li>🔹 Scalable React applications</li>
-      </ul>
-    </section>
-  );
-}
-
 function Contact() {
   return (
     <section>
       <h2 className="text-2xl font-semibold">Contact</h2>
       <p className="mt-2 text-gray-600">Email: nvashon@gmail.com</p>
-      <p className="text-gray-600">GitHub: <a href="https://github.com/yourgithub" className="text-blue-500">@yourgithub</a></p>
-      <p className="text-gray-600">LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" className="text-blue-500">/yourlinkedin</a></p>
+      <p className="text-gray-600">GitHub: <a href="https://github.com/nvashon" className="text-blue-500">@nvashon</a></p>
+      <p className="text-gray-600">LinkedIn: <a href="https://www.linkedin.com/in/nicholas-vashon-2b93a886/" className="text-blue-500">/NicholasVashon</a></p>
     </section>
   );
 }
