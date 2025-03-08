@@ -15,4 +15,4 @@ This is a personal portfolio website created with React and styled using Tailwin
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/nvashon/about-me-site.git
+   git clone https://github.com/nvashon/portfolio.git

@@ -24,15 +24,15 @@ const projects = [
   {
     name: "Portfolio Site",
     description: "My personal portfolio built with React and Tailwind.",
-    github: "https://github.com/nvashon/about-me-site",
-    deployed: "https://nvashon.github.io/about-me-site/"
+    github: "https://github.com/nvashon/portfolio",
+    deployed: "https://nvashon.github.io/portfolio/"
   }
 ];
 
 const deployedProjects = [
   {
     name: "About Me Site",
-    url: "https://nvashon.github.io/about-me-site/"
+    url: "https://nvashon.github.io/portfolio/"
   }
 ];
 
